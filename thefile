@@ -1,0 +1,25 @@
+from fileinput import close
+from turtle import clear
+
+clear
+import re
+import shlex
+import csv
+import json
+
+
+dataFromFile = open('inputfile.txt', 'r+')
+data = dataFromFile.readlines()
+dataFromFile.close()
+
+l1 = []
+for line in data:
+  l1.extend(line.split('\n'))
+  #l1.extend(line.split(','))
+  print(line)
+
+print('here')
+test = l1[2]
+print(test)
+
+#I'm tired of throwing code at python and hoping it sticks. I'm tired so very tired. 
