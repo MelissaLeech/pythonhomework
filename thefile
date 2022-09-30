@@ -18,8 +18,5 @@ for line in data:
   #l1.extend(line.split(','))
   print(line)
 
-print('here')
-test = l1[2]
-print(test)
 
 #I'm tired of throwing code at python and hoping it sticks. I'm tired so very tired. 
